@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muslim Prayer Reminder</title>
+    <title>Azaan Reminder</title>
     <link rel="stylesheet" href="popup.css">
 </head>
 <body>
@@ -12,14 +12,15 @@
         <div id="prayerTimes"></div>
         <div class="input-container">
             <div class="input-box">
-                <label for="cityInput">City</label>
-                <input type="text" id="cityInput">
+                <label for="cityInput"></label>
+                <input type="text" name= "country" id="cityInput" placeholder="City" required="">
             </div>
         </div>
         <div class="input-container">
             <div class="input-box">
-                <label for="countryInput">Country</label>
-                <input type="text" id="countryInput">
+                <label for="countryInput"></label>
+                
+                <input type="text" name= "country" id="countryInput" placeholder="Country" required="">
             </div>
         </div>
         <button id="getPrayerTimes">Get Prayer Time</button>
